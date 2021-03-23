@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+.d1 span h2{
+  align-items: center;
+ 
+  background-color: rgb(224, 231, 163);
+}
+.play{
+  text-align: center;
+  background-color: coral;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  height: 350px;
+  box-shadow: 3px 3px 3px rgb(58, 16, 13);
+  
+}
+.play:hover{
+  box-shadow: 5px 5px 5px rgb(155, 25, 2);
+}
+.center1{
+   
+  font-size: 30px;
+  font-family: fantasy;
+  margin-top: 10%;
+  background-color: tomato;
+  box-shadow: 0px 1px   rgb(252, 250, 250) ;
+
+}
+.but{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.but button{
+  min-height: 40px;
+  min-width: 30%;
+  border-radius: 7%;
+  background-color: rgb(255, 217, 0);
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: fantasy;
+  box-shadow: 2px 2px 2px green;
+   
+  
+}
+.but button:hover{
+  background-color: rgb(194, 238, 105);
+  box-shadow: 2px 2px 2px teal;
+  transform: scale(1.1);
+  transition: ease 0.2s;
+}
